@@ -1,0 +1,8 @@
+Nome=input('Digite seu nome completo:').strip()
+SepNome=Nome.split()
+JunNome=''.join(SepNome)
+print('Analisando seu nome:')
+print('Seu nome em letras maiúsculas é {}.'.format(Nome.upper()))
+print('Seu nome em letras minúsculas é {}.'.format(Nome.lower()))
+print('Seu nome tem ao todo {} letras'.format(len(JunNome)))
+print('Seu primeiro nome é {} e ele tem {} letras'.format(SepNome[0], len(SepNome[0])))
